@@ -390,7 +390,7 @@
   justify-self: center;
 }
 
-.address {
+.address__footer {
   color: #000;
   flex-direction: column;
   flex-shrink: 0;
