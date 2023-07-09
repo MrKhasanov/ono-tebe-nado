@@ -1,0 +1,1 @@
+git@github.com:MrKhasanov/ono-tebe-nado
