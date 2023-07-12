@@ -80,7 +80,7 @@
 .cover {
   display: flex;
   max-width: 1440px;
-  max-height: 100%;
+  max-height: ;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
