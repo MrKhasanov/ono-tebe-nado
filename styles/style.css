@@ -1,7 +1,7 @@
 /* место для вашего кода */
 
 .header {
-  max-width: 1440px;
+  max-width: 1340px;
   margin: 80px 50px;
   display: grid;
   grid-template-columns: 388px 1fr 388px;
@@ -191,7 +191,6 @@
 }
 
 .lots {
-  
   display: flex;
   flex-shrink: 0;
   flex-grow: 1;
@@ -213,7 +212,7 @@
   text-transform: uppercase;
   margin-left: 90px;
   margin-top: 135px;
-  margin-bottom: 28px;
+  margin-bottom: 29px;
 }
 
 .lots__card-list {
@@ -224,7 +223,6 @@
   margin-bottom: 32px;
   padding-left: 49px;
   margin-right: 25px;
-  
 }
 
 .lots__card-list-item {
@@ -286,7 +284,6 @@
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  
 }
 
 .card_type_book {
@@ -308,25 +305,24 @@
 
 .about {
   max-width: 1440px;
-  margin: 180px 50px;
+  margin: 181px 50px;
   display: flex;
 }
 
 .about__column {
   display: grid;
-  grid-template-columns: 455px 1fr;
-  grid-template-rows: 368px 1fr;
+  grid-template-columns: 430px, 1fr;
+  grid-column-gap: 24px;
 }
 
 .about__logo {
   display: flex;
-  margin-left: 95px;
-  padding: 0px 46px;
+  margin: 0px 95px;
   background-color: #000;
   height: 240px;
   width: 240px;
-  border-radius: 40em;
-  justify-content: end;
+  border-radius: 50%;
+  justify-content: center;
   align-items: center;
 }
 
@@ -338,7 +334,7 @@
 }
 
 .about__title {
-  flex-direction: row;
+  grid-column: 2;
   color: #000;
   font-family: Raleway;
   font-size: 40px;
@@ -349,31 +345,27 @@
 }
 
 .about__text {
-  display: flex;
-  position: absolute;
-  padding-top: 247px;
+  grid-column: 2;
   width: 885px;
-  flex-direction: column;
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  margin-left: 455px;
+  padding-top: 6px;
+  padding-bottom: 26px;
 }
 
 .about__text-bottom {
-  display: flex;
-  margin-left: 455px;
+  grid-column: 2;
   width: 885px;
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  
 }
 
 .footer {
-  max-width: 1440px;
+  max-width: 1340px;
   display: grid;
   grid-template-columns: 400px 2fr 2fr;
   grid-template-rows: 1fr;
@@ -391,7 +383,7 @@
 }
 
 .footer__address {
-    display: block;
+  display: block;
   color: #000;
   flex-direction: column;
   flex-shrink: 0;
@@ -446,6 +438,3 @@
 .footer__social-list-item {
   display: flex;
 }
-
-
-
